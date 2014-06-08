@@ -92,6 +92,7 @@ setup(
     license=meta['license'],
     tests_require=tests_require,
     classifiers=classifiers,
+    test_suite='nose.collector',
 )
 
 
