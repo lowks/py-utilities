@@ -89,6 +89,7 @@ setup(
     package_data={'': ['LICENSE']},
     package_dir={'py_utilities': 'py_utilities'},
     install_requires=requires,
+    setup_requires=['nose>=0.13'],
     license=meta['license'],
     tests_require=tests_require,
     classifiers=classifiers,
